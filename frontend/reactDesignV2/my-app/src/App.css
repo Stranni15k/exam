@@ -1,0 +1,260 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #f8fdf8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.card {
+  border: 1px solid #e8f5e8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(40, 167, 69, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.15);
+}
+
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.navbar {
+  background-color: #28a745 !important;
+  box-shadow: 0 2px 4px rgba(40, 167, 69, 0.1);
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #f0f0f0 !important;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2d5a3d;
+  font-weight: 600;
+}
+
+/* Стили для списка событий */
+.event-list-item {
+  background: white;
+  border: 1px solid #e8f5e8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+  transition: border-color 0.2s ease;
+}
+
+.event-list-item:hover {
+  border-color: #28a745;
+}
+
+.event-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d5a3d;
+  margin: 0 0 8px 0;
+}
+
+.event-category {
+  background-color: #e8f5e8;
+  color: #2d5a3d;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.event-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.event-detail-item {
+  display: flex;
+  gap: 8px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login-side-panel {
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login-form-panel {
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Дополнительные стили для улучшения дизайна */
+.table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.table thead th {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(102, 126, 234, 0.05);
+  transform: scale(1.01);
+}
+
+.list-group-item {
+  border: none;
+  border-radius: 8px !important;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.alert {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Анимация появления страниц */
+.container > * {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Улучшенные формы */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
