@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB27501C-86AC-4766-959E-19A3A94EDA32}|WinFormsApp\\WinFormsApp.csproj|c:\\users\\denis\\desktop\\gosi\\winformsapp\\winformsapp\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB27501C-86AC-4766-959E-19A3A94EDA32}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB27501C-86AC-4766-959E-19A3A94EDA32}|WinFormsApp\\WinFormsApp.csproj|c:\\users\\denis\\desktop\\gosi\\winformsapp\\winformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB27501C-86AC-4766-959E-19A3A94EDA32}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB27501C-86AC-4766-959E-19A3A94EDA32}|WinFormsApp\\WinFormsApp.csproj|c:\\users\\denis\\desktop\\gosi\\winformsapp\\winformsapp\\migration_createpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB27501C-86AC-4766-959E-19A3A94EDA32}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\migration_createpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB27501C-86AC-4766-959E-19A3A94EDA32}|WinFormsApp\\WinFormsApp.csproj|c:\\users\\denis\\desktop\\gosi\\winformsapp\\winformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB27501C-86AC-4766-959E-19A3A94EDA32}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 292,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\WinFormsApp\\PatientManager.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\PatientManager.cs",
+              "ToolTip": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\WinFormsApp\\PatientManager.cs",
+              "RelativeToolTip": "WinFormsApp\\PatientManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA2wCkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:53:56.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\WinFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\WinFormsApp\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp\\Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:52:55.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Migration_CreatePatients.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\WinFormsApp\\Migration_CreatePatients.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Migration_CreatePatients.cs",
+              "ToolTip": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\WinFormsApp\\Migration_CreatePatients.cs",
+              "RelativeToolTip": "WinFormsApp\\Migration_CreatePatients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:52:19.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\WinFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\denis\\Desktop\\GOSI\\WinFormsApp\\WinFormsApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WinFormsApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:34:46.579Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 108,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
