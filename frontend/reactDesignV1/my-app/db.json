@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "123456",
+      "name": "Администратор",
+      "phone": "+7 (999) 123-45-67",
+      "bio": "Администратор платформы локальных мероприятий",
+      "role": "organizer",
+      "registeredEvents": [],
+      "organizedEvents": [
+        "1"
+      ]
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "password": "123456",
+      "name": "Обычный пользователь",
+      "phone": "+7 (999) 765-43-21",
+      "bio": "Люблю посещать интересные мероприятия",
+      "role": "participant",
+      "registeredEvents": [
+        "1"
+      ],
+      "organizedEvents": []
+    }
+  ],
+  "locations": [
+    {
+      "id": "1",
+      "name": "Конференц-зал \"Центр\"",
+      "address": "ул. Ленина, 10, офис 205",
+      "description": "Современный конференц-зал с проектором и звуковой системой",
+      "capacity": 50,
+      "amenities": [
+        "Проектор",
+        "Звуковая система",
+        "Wi-Fi",
+        "Парковка"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Кафе \"Уютное\"",
+      "address": "пр. Мира, 25",
+      "description": "Небольшое уютное кафе для камерных встреч",
+      "capacity": 20,
+      "amenities": [
+        "Wi-Fi",
+        "Кофе",
+        "Уютная атмосфера"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Парк \"Победы\"",
+      "address": "ул. Парковая, 1",
+      "description": "Открытое пространство для прогулок и мероприятий на свежем воздухе",
+      "capacity": 100,
+      "amenities": [
+        "Скамейки",
+        "Беседки",
+        "Парковка",
+        "Доступ для колясок"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "React для начинающих",
+      "description": "Введение в React.js: основы, компоненты, состояние. Практические примеры и упражнения.",
+      "date": "2024-02-15",
+      "time": "18:00",
+      "maxParticipants": 25,
+      "category": "Лекция",
+      "organizerId": "1",
+      "locationId": "1",
+      "participants": [
+        "2"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Встреча JavaScript-разработчиков",
+      "description": "Неформальная встреча разработчиков для обмена опытом и нетворкинга",
+      "date": "2024-02-20",
+      "time": "19:00",
+      "maxParticipants": 15,
+      "category": "Встреча",
+      "organizerId": "1",
+      "locationId": "2",
+      "participants": []
+    },
+    {
+      "id": 1748174161769,
+      "title": "апва",
+      "description": "авпвап",
+      "date": "2025-05-31",
+      "time": "17:57",
+      "maxParticipants": 4,
+      "category": "Мастер-класс",
+      "locationId": "1",
+      "organizerId": "1",
+      "participants": []
+    }
+  ]
+}

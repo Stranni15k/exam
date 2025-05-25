@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPatient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Patient>
+    <Name>Иванов Иван Иванович</Name>
+    <Age>45</Age>
+    <Ward>101</Ward>
+    <DiagnosisDate>2025-05-20T15:39:22.2091771+04:00</DiagnosisDate>
+  </Patient>
+  <Patient>
+    <Name>Петров Петр Петрович</Name>
+    <Age>32</Age>
+    <Ward>102</Ward>
+    <DiagnosisDate>2025-05-22T15:39:22.2092792+04:00</DiagnosisDate>
+  </Patient>
+  <Patient>
+    <Name>Сидоров Сидор Сидорович</Name>
+    <Age>67</Age>
+    <Ward>101</Ward>
+    <DiagnosisDate>2025-05-18T15:39:22.2092799+04:00</DiagnosisDate>
+  </Patient>
+  <Patient>
+    <Name>Козлова Анна Владимировна</Name>
+    <Age>28</Age>
+    <Ward>103</Ward>
+    <DiagnosisDate>2025-05-23T15:39:22.2092799+04:00</DiagnosisDate>
+  </Patient>
+  <Patient>
+    <Name>Морозов Николай Алексеевич</Name>
+    <Age>55</Age>
+    <Ward>102</Ward>
+    <DiagnosisDate>2025-05-21T15:39:22.20928+04:00</DiagnosisDate>
+  </Patient>
+  <Patient>
+    <Name>Власова Елена Игоревна</Name>
+    <Age>39</Age>
+    <Ward>101</Ward>
+    <DiagnosisDate>2025-05-24T15:39:22.2092832+04:00</DiagnosisDate>
+  </Patient>
+  <Patient>
+    <Name>ываыааыав</Name>
+    <Age>30</Age>
+    <Ward>101</Ward>
+    <DiagnosisDate>2025-05-25T15:40:08.4870342+04:00</DiagnosisDate>
+  </Patient>
+  <Patient>
+    <Name>ыапыапв</Name>
+    <Age>30</Age>
+    <Ward>101</Ward>
+    <DiagnosisDate>2025-05-25T16:37:46.9217604+04:00</DiagnosisDate>
+  </Patient>
+</ArrayOfPatient>
